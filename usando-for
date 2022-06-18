@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+	int main () {
+	int fat, n;
+
+	printf ("Insira um numero: ")
+	scanf ("%d", &n);
+	
+	for (fat = 1; n >= 1; n--)  {
+		fat *= n;
+}
+	printf ("%d", fat);
+	
+	return 0;
+	}
