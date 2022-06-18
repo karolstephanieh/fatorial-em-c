@@ -13,7 +13,7 @@
 		n--;
 	}
 	
-	printf ("%d", fat);
+	printf ("o fatorial de %d é %d",n, fat);
 	
 	return 0;	
 	}
